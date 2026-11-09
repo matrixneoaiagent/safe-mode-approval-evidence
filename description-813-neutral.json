@@ -29,7 +29,7 @@
   },
   "details": {
     "summary": "campaign-review asked to send \"Safe Mode approval check \u2014 OpenCode Audit\" to 1 recipient.",
-    "requester": "frantic-map-142",
+    "requester": "campaign-review",
     "content": {
       "id": "https://api.nitrosend.com/v1/my/templates/26984",
       "revision": "2",
