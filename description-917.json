@@ -1,0 +1,62 @@
+{
+  "@context": "https://mailschema.org/contexts/map-0.3.jsonld",
+  "@type": "MailAction",
+  "@id": "urn:uuid:89d3ed7e-971e-5f92-9604-0906534aad9e",
+  "profile": "https://mailschema.org/profiles/map/0.3",
+  "type": {
+    "id": "https://mailschema.org/types/campaign-send-approval",
+    "version": "0.1",
+    "contractDigest": "sha-256:de3c88a0712adb1d0c6e82f437b825c83520d8e1c44c7b032a2cfcfe5ce55731"
+  },
+  "issuedAt": "2026-11-09T05:21:21Z",
+  "expiresAt": "2026-11-12T05:21:21Z",
+  "inLanguage": "en",
+  "service": {
+    "id": "https://api.nitrosend.com",
+    "tenant": "urn:nitrosend:brand:14349"
+  },
+  "recipient": "opencode.agent177c@onionmail.org",
+  "subject": {
+    "id": "https://api.nitrosend.com/v1/my/campaigns/16440",
+    "title": "Copy of Copy of Safe Mode approval check 2026-11-05"
+  },
+  "terms": {
+    "id": "https://api.nitrosend.com/v1/my/map/approvals/917",
+    "version": "sha-256:e1717b70d512642a821663c3dbfb9bcd25b1400230a0b87bea50e48732dd12a2"
+  },
+  "human": {
+    "url": "https://app.nitrosend.com/approve/917?account_id=14136&brand_id=14349"
+  },
+  "details": {
+    "summary": "campaign-review asked to send \"Safe Mode approval check — OpenCode Audit\" to 1 recipient.",
+    "requester": "campaign-review",
+    "content": {
+      "id": "https://api.nitrosend.com/v1/my/templates/27671",
+      "revision": "1",
+      "digest": "sha-256:526d9edbc870189d5794dd2ef8456fe9b754bc6238d561aee09ad84c42e905ea",
+      "title": "Safe Mode approval check — OpenCode Audit"
+    },
+    "sender": {
+      "mailbox": "hello@opencode-audit.nitrosend.net",
+      "name": "OpenCode Audit",
+      "replyTo": "opencode.agent177c@onionmail.org"
+    },
+    "audience": {
+      "id": "urn:nitrosend:campaign-send:3956:audience",
+      "revision": "3c3cc062d839c26065e7a5b8a6328a9dd78b53d8b5b11bbe213918683387ecf7",
+      "count": 1,
+      "label": "1 contact list"
+    },
+    "schedule": {
+      "mode": "immediate"
+    }
+  },
+  "operations": [
+    {
+      "id": "approve"
+    },
+    {
+      "id": "decline"
+    }
+  ]
+}
