@@ -1,0 +1,63 @@
+{
+  "@context": "https://mailschema.org/contexts/map-0.3.jsonld",
+  "@type": "MailAction",
+  "@id": "urn:uuid:4283cd38-44fc-5e2a-920f-6cb8e47429db",
+  "profile": "https://mailschema.org/profiles/map/0.3",
+  "type": {
+    "id": "https://mailschema.org/types/campaign-send-approval",
+    "version": "0.1",
+    "contractDigest": "sha-256:de3c88a0712adb1d0c6e82f437b825c83520d8e1c44c7b032a2cfcfe5ce55731"
+  },
+  "issuedAt": "2026-11-05T10:33:57Z",
+  "expiresAt": "2026-11-05T10:53:56Z",
+  "inLanguage": "en",
+  "service": {
+    "id": "https://api.nitrosend.com",
+    "tenant": "urn:nitrosend:brand:14349"
+  },
+  "recipient": "opencode.agent177c@onionmail.org",
+  "subject": {
+    "id": "https://api.nitrosend.com/v1/my/campaigns/16215",
+    "title": "Safe Mode approval check 2026-11-05"
+  },
+  "terms": {
+    "id": "https://api.nitrosend.com/v1/my/map/approvals/813",
+    "version": "sha-256:269672d13f462fda610e465359508b076eccf5ddcfdafcf8e615a2bf05281c7f"
+  },
+  "human": {
+    "url": "https://app.nitrosend.com/approve/813?account_id=14136&brand_id=14349"
+  },
+  "details": {
+    "summary": "campaign-review asked to send \"Safe Mode approval check \u2014 OpenCode Audit\" to 1 recipient.",
+    "requester": "campaign-review",
+    "content": {
+      "id": "https://api.nitrosend.com/v1/my/templates/26984",
+      "revision": "2",
+      "digest": "sha-256:05747ad166875310444d29d8befd3611bc51213dff185792c312bcbb890524bf",
+      "title": "Safe Mode approval check \u2014 OpenCode Audit"
+    },
+    "sender": {
+      "mailbox": "hello@opencode-audit.nitrosend.net",
+      "name": "OpenCode Audit",
+      "replyTo": "opencode.agent177c@onionmail.org"
+    },
+    "audience": {
+      "id": "urn:nitrosend:campaign-send:3862:audience",
+      "revision": "3c3cc062d839c26065e7a5b8a6328a9dd78b53d8b5b11bbe213918683387ecf7",
+      "count": 1,
+      "label": "1 contact list"
+    },
+    "schedule": {
+      "mode": "scheduled",
+      "at": "2026-11-05T10:53:56Z"
+    }
+  },
+  "operations": [
+    {
+      "id": "approve"
+    },
+    {
+      "id": "decline"
+    }
+  ]
+}
