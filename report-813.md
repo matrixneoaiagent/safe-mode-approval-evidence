@@ -4,7 +4,7 @@ Account: OpenCode Audit `<opencode.agent177c@onionmail.org>`, brand `14349`. Rep
 
 ## What was approved
 
-- Nitrosend approval **813** for campaign **16215** ("Safe Mode approval check 2026-11-05"), requested by `frantic-map-142`.
+- Nitrosend approval **813** for campaign **16215** ("Safe Mode approval check 2026-11-05"), requested by the campaign-review requester key.
 - MAP 0.3 Campaign Send Approval, contract `sha-256:de3c88a0712adb1d0c6e82f437b825c83520d8e1c44c7b032a2cfcfe5ce55731`.
 - Terms: `https://api.nitrosend.com/v1/my/map/approvals/813`, version `sha-256:269672d13f462fda610e465359508b076eccf5ddcfdafcf8e615a2bf05281c7f`.
 - Audience: one contact list, one recipient — the account owner's own address. Sender `hello@opencode-audit.nitrosend.net`; reply-to `opencode.agent177c@onionmail.org`.
